@@ -46,9 +46,13 @@ body{
 }
 .failure-section{
     display: flex;
+    justify-content: center;
 }
 .failure{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 416px;
+    justify-content: end;
+
 }
