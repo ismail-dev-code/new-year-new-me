@@ -47,6 +47,7 @@ body{
 .failure-section{
     display: flex;
     justify-content: center;
+    margin-bottom: 130px;
 }
 .failure{
     display: flex;
@@ -54,6 +55,12 @@ body{
     align-items: center;
     width: 416px;
     justify-content: end;
+
+}
+.failure h1{
+    font-size: 40px;
+    width: 288px;
+    font-weight: bold;
 }
 .down-section{
     display: flex;
@@ -87,4 +94,32 @@ body{
     display: flex;
     justify-content: center;
 }
+.positive-mindset{
+    background-image: url("./images/gradient2.png"), url("./images/watch.png");
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    margin: auto;
+    background-position: bottom right, top left; 
+    
+}
+.positive-mindset div{
+    padding-left: 64px;
+    padding-top: 59px;
+    width: 459px;
+}
+.positive-mindset h2{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.positive-mindset button{
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    padding: 20px 36px;
+    border-radius: 5px;
+    border: none;
 
+}
